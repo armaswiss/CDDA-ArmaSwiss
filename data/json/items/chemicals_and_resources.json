@@ -652,8 +652,9 @@
     "material": [ "dense_powder" ],
     "volume": "1 ml",
     "weight": "7140 mg",
+    "display_type": "BY_WEIGHT",
     "//": "Density 7.14g/cm³",
-    "container": "bottle_plastic_small"
+   
   },
   {
     "type": "ITEM",
@@ -684,6 +685,7 @@
     "material": [ "dense_powder" ],
     "volume": "1 ml",
     "weight": "5026 mg",
+    "display_type": "BY_WEIGHT",
     "//": "density: 5.026 g/cm3",
     "container": "bottle_plastic_small"
   },
@@ -858,8 +860,8 @@
     "material": [ "powder_nonflam" ],
     "volume": "1 ml",
     "weight": "5220 mg",
+    "display_type": "BY_WEIGHT",
     "//": "density: 5.22 g/cm3",
-    "container": "bottle_plastic_small"
   },
   {
     "type": "ITEM",
@@ -894,10 +896,11 @@
     "color": "white",
     "description": "A handful of calcium carbide, giving off a faint, garlic-like smell.  Commercially, calcium carbide was used for on-the-spot manufacture of acetylene and historically to power acetylene lamps.  If mixed with water and sealed, it will explode with little strength, but with a relatively loud noise that might be useful as a distraction.",
     "material": [ "dense_powder" ],
+    "display_type": "BY_WEIGHT",
     "volume": "1 ml",
     "weight": "2220 mg",
     "//": "density: 2.22 g/cm3",
-    "container": "bottle_plastic_small"
+  
   },
   {
     "type": "ITEM",
@@ -912,8 +915,8 @@
     "material": [ "dense_powder" ],
     "volume": "1 ml",
     "weight": "2710 mg",
+    "display_type": "BY_WEIGHT",
     "//": "density: 2.71 g/cm3",
-    "container": "bottle_plastic_small"
   },
   {
     "type": "ITEM",
@@ -1429,8 +1432,8 @@
     "material": [ "powder" ],
     "volume": "13 ml",
     "weight": "7500 mg",
+    "display_type": "BY_WEIGHT",
     "flags": [ "DETERGENT" ],
-    "container": "box_small"
   },
   {
     "type": "ITEM",
@@ -1988,8 +1991,8 @@
     "description": "An allotrope of the element phosphorous.  It's what you use to light matches, but can also be used in the synthesis of methamphetamine.  You could use it to make bombs, and if you were truly desperate you might even be able to use it in small portions as a propellant for bullets.",
     "weight": "10 g",
     "volume": "5 ml",
+    "display_type": "BY_WEIGHT",
     "//": "Density around 2.2g/cm3, but since it's a powder, it's a bit lower, around 1.8-2.0 g/cm3",
-    "container": "bottle_plastic_small",
     "symbol": "=",
     "color": "red",
     "price": "50 cent",
@@ -2003,7 +2006,7 @@
     "description": "A small collection of red phosphorous scrapings, scavenged from match heads.An allotrope of the element phosphorous.  It's what you use to light matches, but can also be used in the synthesis of methamphetamine.  You could use it to make bombs, and if you were truly desperate you might even be able to use it as a propellant for bullets.",
     "weight": "100 mg",
     "volume": "1 ml",
-    "container": "bottle_plastic_small",
+    "display_type": "BY_WEIGHT",
     "symbol": "=",
     "color": "red",
     "price": "50 cent",
@@ -2017,8 +2020,8 @@
     "description": "An allotrope of the element phosphorous.  Extremely flammable, produces toxic smoke, you can use it to make smoke bombs.",
     "weight": "7500 mg",
     "volume": "5 ml",
+    "display_type": "BY_WEIGHT",
     "//": "Density around 1.8g/cm3, but since it's a powder, it's a bit lower, around 1.5 g/cm3",
-    "container": "bottle_plastic_small",
     "symbol": "=",
     "color": "white",
     "price": "50 cent",
