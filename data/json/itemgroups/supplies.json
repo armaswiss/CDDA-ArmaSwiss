@@ -70,6 +70,135 @@
     "container-item": "bottle_plastic_355ml",
     "items": [ { "item": "graphite", "count": [ 2, 118 ] } ]
   },
+   {
+    "id": "zinc_powder_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_zinc_powder", "count": 118 } ]
+  },
+  {
+    "id": "zinc_powder_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_zinc_powder", "count": [ 2, 118 ] } ]
+  },
+   {
+    "id": "calcium_carbide_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_carbide", "count": 118 } ]
+  },
+  {
+    "id": "calcium_carbide_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_carbide", "count": [ 2, 118 ] } ]
+  },
+     {
+    "id": "red_phosphorous_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "red_phosphorous", "count": 118 } ]
+  },
+  {
+    "id": "red_phosphorous_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "red_phosphorous", "count": [ 2, 118 ] } ]
+  },
+       {
+    "id": "white_phosphorous_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "white_phosphorous", "count": 118 } ]
+  },
+  {
+    "id": "white_phosphorous_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "white_phosphorous", "count": [ 2, 118 ] } ]
+  },
+         {
+    "id": "manganese_dioxide_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_manganese_dioxide", "count": 118 } ]
+  },
+  {
+    "id": "manganese_dioxide_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_manganese_dioxide", "count": [ 2, 118 ] } ]
+  },
+           {
+    "id": "chromium_oxide_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_chromium_oxide", "count": 118 } ]
+  },
+  {
+    "id": "chromium_oxide_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_chromium_oxide", "count": [ 2, 118 ] } ]
+  },
+             {
+    "id": "calcium_carbonate_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_caco3", "count": 118 } ]
+  },
+  {
+    "id": "calcium_carbonate_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_caco3", "count": [ 2, 118 ] } ]
+  },
+               {
+    "id": "calcium_carbide_small_bottle",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "//": "8 oz",
+    "items": [ { "item": "chem_carbide", "count": 118 } ]
+  },
+  {
+    "id": "calcium_carbide_small_bottle_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "chem_carbide", "count": [ 2, 118 ] } ]
+  },
+                 {
+    "id": "detergent_small_box",
+    "type": "item_group",
+    "container-item": "box_small",
+    "items": [ { "item": "detergent", "count": 81 } ]
+  },
+  {
+    "id": "detergent_small_box_part",
+    "type": "item_group",
+    "container-item": "bottle_plastic_355ml",
+    "items": [ { "item": "detergent", "count": [ 15, 81 ] } ]
+  },
+                   {
+    "id": "magnesium_small_bag",
+    "type": "item_group",
+    "container-item": "bag_plastic_small",
+    "//": "500ml bag. 280g of powder ",
+    "items": [ { "item": "magnesium", "count": 250 } ]
+  },
+  {
+    "id": "magnesium_small_bag_part",
+    "type": "item_group",
+    "container-item": "bag_plastic_small",
+    "items": [ { "item": "magnesium", "count": [ 45, 250 ] } ]
+  },
   {
     "id": "sandbag",
     "type": "item_group",
