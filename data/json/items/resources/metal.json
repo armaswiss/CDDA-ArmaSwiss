@@ -186,9 +186,9 @@
     "description": "A handful of powdered magnesium, a highly flammable alkaline earth metal.  Useful for constructing flares and similar items.",
     "weight": "1120 mg",
     "volume": "2 ml",
+    "display_type": "BY_WEIGHT",
     "price": "50 USD",
     "price_postapoc": "1 cent",
-    "container": "bag_plastic_small",
     "material": [ "powder" ],
     "symbol": "=",
     "color": "dark_gray"
