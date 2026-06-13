@@ -705,9 +705,10 @@
     "name": { "str": "Excavator digging bucket" },
     "item": "digging_bucket",
     "categories": [ "utility" ],
-    "flags": [ "EXCAVATOR_TOOL" ],
+    "flags": [ "EXCAVATOR_TOOL", "TRANSFORM_TERRAIN" ],
     "durability": 750,
     "description": "A metal bucket with stubby teeth, commonly seen on the ends of excavator arms. Able to move earth and soil much faster than a shovel. It's attached by a hinge, with attachment points for hydraulic rams",
+    
     "breaks_into": [
       {
         "item": "ch_steel_lump",
@@ -722,6 +723,10 @@
         "count": [ 4, 6 ]
       }
     ],
+      "transform_terrain": {
+      "pre_flags": [ "DIGGABLE" ],
+      "post_terrain": "t_pit"
+    },
     "//1": "40 cm of weld per quadrant of damage and 100 cm weld to install",
     "requirements": {
       "install": {
