@@ -599,10 +599,12 @@
     "item": "boom_mount",
     "//": "Required to mount the boom-and-stick. Can be craftable by the player due to its simple design of being basically welded tabs and mounting points",
     "location": "structure",
+    "//":"Only a boom mount can be used for installing an excavator boom-and-stick arm",
+    "flags":"EXCAVATOR_ARM_BASE",
     "categories": [ "utility" ],
     "durability": 300,
     "description": "A welded mount for mountain boom-and-stick excavator arms.  This one is sized for the smaller mini-excavator boom-and-stick, and has attachment points to attach the hydraulic rams for left/right movement",
-     "flags": [ "TURRET_MOUNT" ],
+     "flags": [ "TURRET_MOUNT", "EXCAVATOR_ARM_BASE" ],
     "//1":"Disable placing a turret where we have a boom arm",
     "breaks_into": [
       {
@@ -657,6 +659,7 @@
     "item": "boom_and_stick",
     "location": "center",
     "categories": [ "utility" ],
+    "flags": [ "EXCAVATOR_ARM" ],
     "broken_color": "light_blue",
     "durability": 200,
     "description": "A boom-and-stick arm commonly found on excavators but on a much smaller scale.  Hydraulic rams allow it to extend and retract, and swing side to side.  On the end, there is a digging bucket attached.  You could use it to help lift something or dig a hole in the ground. It's capable of lifting up to 3/4 metric tons.  It must be mounted to a dedicated mount to function properly",
@@ -702,6 +705,7 @@
     "name": { "str": "Digging Bucket" },
     "item": "digging_bucket",
     "categories": [ "utility" ],
+    "flags": [ "EXCAVATOR_TOOL" ],
     "durability": 750,
     "description": "A metal bucket with stubby teeth, commonly seen on the ends of excavator arms. Able to move earth and soil much faster than a shovel. It's attached by a hinge, with attachment points for hydraulic rams",
     "breaks_into": [
