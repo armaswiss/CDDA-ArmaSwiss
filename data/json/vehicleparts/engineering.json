@@ -552,8 +552,7 @@
     "description": "An electronically controlled valve system for diverting hydraulic pressure to hydraulically-controlled equipment",
     "//": "Without this installed, no hydraulic equipment can function.  Can NOT be fabricated by the player due to its complicated and specialized nature.  Must be scavenged from vehicles",
     "durability": 325,
-    "power": "-2238 W",
-    "epower": "1320 W",
+    "power": "100 W",
     "damage_modifier": 80,
     "//1": "20 cm weld to repair per damage quadrant",
     "breaks_into": [
@@ -692,6 +691,60 @@
       {
         "symbols": "=",
         "symbols_broken": "*"
+      }
+    ]
+  },
+  {
+    "id": "digging_bucket",
+    "type": "vehicle_part",
+    "name": { "str": "Digging Bucket" },
+    "item": "digging_bucket",
+    "categories": [ "utility" ],
+    "durability": 750,
+    "description": "A metal bucket with stubby teeth, commonly seen on the ends of excavator arms. Able to move earth and soil much faster than a shovel. It's attached by a hinge, with attachment points for hydraulic rams",
+    "breaks_into": [
+      {
+        "item": "ch_steel_lump",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "ch_steel_chunk",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 4, 6 ]
+      }
+    ],
+    "//1": "40 cm of weld per quadrant of damage and 100 cm weld to install",
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "60 m",
+        "using": [
+          [ "welding_standard", 100 ],
+          [ "vehicle_bolt_install", 2 ]
+        ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "30 m",
+        "using": [
+          [ "vehicle_weld_removal", 1 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "8 m",
+        "using": [ [ "repair_welding_standard", 4 ] ]
+      }
+    },
+    "damage_reduction": { "all": 132 },
+    "variants": [
+      {
+        "symbols": "&",
+        "symbols_broken": "x"
       }
     ]
   }
