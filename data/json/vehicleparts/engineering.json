@@ -16,18 +16,47 @@
     "broken_color": "light_blue",
     "durability": 200,
     "description": "A rigid steel boom crane.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want to jack up the other vehicle to change its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
-    "breaks_into": [ { "item": "pipe", "count": [ 8, 32 ] }, { "item": "scrap", "count": [ 8, 24 ] } ],
-    "qualities": [ [ "LIFT", 40 ], [ "JACK", 40 ] ],
+    "breaks_into": [
+      {
+        "item": "pipe",
+        "count": [ 8, 32 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 8, 24 ]
+      }
+    ],
+    "qualities": [
+      [ "LIFT", 40 ],
+      [ "JACK", 40 ]
+    ],
     "//": "30 cm of weld per quadrant of damage",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt_install", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
+      "install": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_bolt_install", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_standard", 3 ] ]
+      }
     },
     "flags": [ "PROTRUSION" ],
     "pseudo_tools": [ { "id": "crane_pseudo_item" } ],
     "damage_reduction": { "all": 48 },
-    "variants": [ { "symbols": "=", "symbols_broken": "*" } ]
+    "variants": [
+      {
+        "symbols": "=",
+        "symbols_broken": "*"
+      }
+    ]
   },
   {
     "id": "crane_medium_internal",
@@ -50,18 +79,47 @@
     "durability": 100,
     "description": "An extendable cantilever crane.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want to jack up the other vehicle to change its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
     "folded_volume": "3 L",
-    "breaks_into": [ { "item": "pipe", "count": [ 2, 8 ] }, { "item": "scrap", "count": [ 2, 6 ] } ],
-    "qualities": [ [ "LIFT", 7 ], [ "JACK", 7 ] ],
+    "breaks_into": [
+      {
+        "item": "pipe",
+        "count": [ 2, 8 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 2, 6 ]
+      }
+    ],
+    "qualities": [
+      [ "LIFT", 7 ],
+      [ "JACK", 7 ]
+    ],
     "//": "30 cm of weld per quadrant of damage",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt_install", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
+      "install": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_bolt_install", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_standard", 3 ] ]
+      }
     },
     "flags": [ "PROTRUSION" ],
     "pseudo_tools": [ { "id": "crane_pseudo_item" } ],
     "damage_reduction": { "all": 42 },
-    "variants": [ { "symbols": "=", "symbols_broken": "*" } ]
+    "variants": [
+      {
+        "symbols": "=",
+        "symbols_broken": "*"
+      }
+    ]
   },
   {
     "id": "crane_tiny",
@@ -73,17 +131,46 @@
     "durability": 100,
     "description": "A small pallet lifter.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want to jack up the other vehicle to change its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
     "folded_volume": "3 L",
-    "breaks_into": [ { "item": "pipe", "count": [ 1, 4 ] }, { "item": "scrap", "count": [ 2, 6 ] } ],
-    "qualities": [ [ "LIFT", 1 ], [ "JACK", 1 ] ],
+    "breaks_into": [
+      {
+        "item": "pipe",
+        "count": [ 1, 4 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 2, 6 ]
+      }
+    ],
+    "qualities": [
+      [ "LIFT", 1 ],
+      [ "JACK", 1 ]
+    ],
     "//": "30 cm of weld per quadrant of damage",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "vehicle_bolt_install", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
+      "install": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_bolt_install", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_standard", 3 ] ]
+      }
     },
     "flags": [ "PROTRUSION" ],
     "damage_reduction": { "all": 40 },
-    "variants": [ { "symbols": "=", "symbols_broken": "*" } ]
+    "variants": [
+      {
+        "symbols": "=",
+        "symbols_broken": "*"
+      }
+    ]
   },
   {
     "id": "forklift_fork",
@@ -97,25 +184,43 @@
     "description": "A pair of forklift arms.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want to jack up the other vehicle to change its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
     "size": "12500 ml",
     "breaks_into": "ig_vp_frame",
-    "qualities": [ [ "LIFT", 2 ], [ "JACK", 6 ] ],
+    "qualities": [
+      [ "LIFT", 2 ],
+      [ "JACK", 6 ]
+    ],
     "//": "30 cm of weld per quadrant of damage, 60 cm of weld to install",
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 2 ] ],
         "time": "30 m",
-        "using": [ [ "welding_standard", 60 ], [ "vehicle_bolt_install", 1 ] ]
+        "using": [
+          [ "welding_standard", 60 ],
+          [ "vehicle_bolt_install", 1 ]
+        ]
       },
       "removal": {
         "skills": [ [ "mechanics", 2 ] ],
         "time": "30 m",
-        "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_wrench_2", 1 ] ]
+        "using": [
+          [ "vehicle_weld_removal", 1 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
       },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "5 m", "using": [ [ "repair_welding_lc_steel", 3 ] ] }
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_lc_steel", 3 ] ]
+      }
     },
     "flags": [ "CARGO", "PROTRUSION" ],
     "pseudo_tools": [ { "id": "crane_pseudo_item" } ],
     "damage_reduction": { "all": 42 },
-    "variants": [ { "symbols": "|", "symbols_broken": "x" } ]
+    "variants": [
+      {
+        "symbols": "|",
+        "symbols_broken": "x"
+      }
+    ]
   },
   {
     "id": "rockwheel",
@@ -128,28 +233,55 @@
     "description": "A large metal disc, powered by the vehicle's engines.  Use the vehicle controls to turn it on or off.  When turned on, it will stop the vehicle unless it has a strong engine.  When turned on, it will dig a shallow pit in dirt.  Mount it on the edge of your vehicle.",
     "power": "-70000 W",
     "breaks_into": [
-      { "item": "ch_steel_lump", "count": [ 4, 6 ] },
-      { "item": "ch_steel_chunk", "count": [ 4, 6 ] },
-      { "item": "scrap", "count": [ 4, 6 ] }
+      {
+        "item": "ch_steel_lump",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "ch_steel_chunk",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 4, 6 ]
+      }
     ],
-    "transform_terrain": { "pre_flags": [ "DIGGABLE" ], "post_terrain": "t_pit_shallow" },
+    "transform_terrain": {
+      "pre_flags": [ "DIGGABLE" ],
+      "post_terrain": "t_pit_shallow"
+    },
     "//": "40 cm of weld per quadrant of damage and 100 cm weld to install",
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 5 ] ],
         "time": "60 m",
-        "using": [ [ "welding_standard", 100 ], [ "vehicle_bolt_install", 2 ] ]
+        "using": [
+          [ "welding_standard", 100 ],
+          [ "vehicle_bolt_install", 2 ]
+        ]
       },
       "removal": {
         "skills": [ [ "mechanics", 3 ] ],
         "time": "30 m",
-        "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_wrench_2", 1 ] ]
+        "using": [
+          [ "vehicle_weld_removal", 1 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
       },
-      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "8 m", "using": [ [ "repair_welding_standard", 4 ] ] }
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "8 m",
+        "using": [ [ "repair_welding_standard", 4 ] ]
+      }
     },
     "flags": [ "PROTRUSION", "EXTRA_DRAG", "ROCKWHEEL", "TRANSFORM_TERRAIN" ],
     "damage_reduction": { "all": 132 },
-    "variants": [ { "symbols": "&", "symbols_broken": "x" } ]
+    "variants": [
+      {
+        "symbols": "&",
+        "symbols_broken": "x"
+      }
+    ]
   },
   {
     "type": "vehicle_part",
@@ -162,9 +294,18 @@
     "durability": 200,
     "description": "An extendable metal pylon used to replace a portable jack.  If mounted to a vehicle, it could be used to lift it up.",
     "breaks_into": [
-      { "item": "pipe", "count": [ 4, 12 ] },
-      { "item": "scrap", "count": [ 8, 24 ] },
-      { "item": "jack", "count": [ 1, 1 ] }
+      {
+        "item": "pipe",
+        "count": [ 4, 12 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 8, 24 ]
+      },
+      {
+        "item": "jack",
+        "count": [ 1, 1 ]
+      }
     ],
     "qualities": [ [ "SELF_JACK", 17 ] ],
     "//": "30 cm of weld per quadrant of damage and 120 cm weld to install",
@@ -172,18 +313,33 @@
       "install": {
         "skills": [ [ "mechanics", 2 ] ],
         "time": "60 m",
-        "using": [ [ "welding_standard", 120 ], [ "vehicle_bolt_install", 3 ] ]
+        "using": [
+          [ "welding_standard", 120 ],
+          [ "vehicle_bolt_install", 3 ]
+        ]
       },
       "removal": {
         "skills": [ [ "mechanics", 2 ] ],
         "time": "30 m",
-        "using": [ [ "vehicle_weld_removal", 1 ], [ "vehicle_wrench_2", 1 ] ]
+        "using": [
+          [ "vehicle_weld_removal", 1 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
       },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "5 m", "using": [ [ "repair_welding_standard", 3 ] ] }
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_standard", 3 ] ]
+      }
     },
     "flags": [ "PROTRUSION", "SELF_JACK" ],
     "damage_reduction": { "all": 36 },
-    "variants": [ { "symbols": "[", "symbols_broken": "/" } ]
+    "variants": [
+      {
+        "symbols": "[",
+        "symbols_broken": "/"
+      }
+    ]
   },
   {
     "type": "vehicle_part",
@@ -193,17 +349,43 @@
     "categories": [ "utility" ],
     "broken_color": "light_blue",
     "durability": 200,
-    "breaks_into": [ { "item": "pipe", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ],
+    "breaks_into": [
+      {
+        "item": "pipe",
+        "count": [ 1, 3 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 1, 3 ]
+      }
+    ],
     "qualities": [ [ "SELF_JACK", 1 ] ],
     "//": "20 cm of weld per quadrant of damage and 30 cm to install",
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "welding_standard", 30 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "4 m", "using": [ [ "repair_welding_standard", 2 ] ] }
+      "install": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "15 m",
+        "using": [ [ "welding_standard", 30 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_weld_removal", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "4 m",
+        "using": [ [ "repair_welding_standard", 2 ] ]
+      }
     },
     "flags": [ "SELF_JACK" ],
     "damage_reduction": { "all": 5 },
-    "variants": [ { "symbols": "[", "symbols_broken": "/" } ]
+    "variants": [
+      {
+        "symbols": "[",
+        "symbols_broken": "/"
+      }
+    ]
   },
   {
     "type": "vehicle_part",
@@ -220,10 +402,297 @@
     "flags": [ "FLAT_SURF" ],
     "pseudo_tools": [ { "id": "fake_solar_cooker" } ],
     "requirements": {
-      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "15 m", "using": [ [ "vehicle_wrench_2", 1 ] ] }
+      "install": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "15 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      }
     },
-    "breaks_into": [ { "item": "scrap", "count": [ 2, 4 ] }, { "item": "sheet_metal_small", "count": [ 1, 2 ] } ],
-    "variants": [ { "symbols": ")", "symbols_broken": "x" } ]
+    "breaks_into": [
+      {
+        "item": "scrap",
+        "count": [ 2, 4 ]
+      },
+      {
+        "item": "sheet_metal_small",
+        "count": [ 1, 2 ]
+      }
+    ],
+    "variants": [
+      {
+        "symbols": ")",
+        "symbols_broken": "x"
+      }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "controls_hydraulic",
+    "categories": [ "operations" ],
+    "broken_color": "red",
+    "damage_modifier": 10,
+    "durability": 250,
+    "description": "A pair of joysticks, commonly used to control hydraulically operated machinery",
+    "//": "Controlled by wires and installable by survivors.  Could be crafted by the player due to its simple construction",
+    "bonus": 10,
+    "folded_volume": "1500 ml",
+    "//1": "120 cm of weld to install the whole assembly",
+    "item": "vehicle_controls",
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [
+          [ "welding_standard", 120 ],
+          [ "vehicle_bolt_install", 2 ]
+        ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "15 m",
+        "using": [
+          [ "vehicle_weld_removal", 15 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "30 m",
+        "using": [
+          [ "repair_welding_standard", 3 ],
+          [ "soldering_standard", 8 ],
+          [ "vehicle_wrench_1", 1 ],
+          [ "vehicle_screw", 1 ]
+        ]
+      }
+    },
+    "flags": [ "CONTROLS_HYDRAULIC" ],
+    "breaks_into": [
+      { "item": "lc_steel_lump" },
+      {
+        "item": "lc_steel_chunk",
+        "count": [ 1, 3 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 1, 3 ]
+      },
+      {
+        "item": "cable",
+        "count": [ 0, 4 ]
+      }
+    ],
+    "damage_reduction": { "all": 6 },
+    "variants": [
+      {
+        "symbols": "$",
+        "symbols_broken": "$"
+      }
+    ]
+  },
+  {
+    "id": "pump_hydraulic",
+    "type": "vehicle_part",
+    "categories": [ "utility" ],
+    "item": "pump_hydraulic",
+    "description": "A mechanical pump for creating hydraulic pressure from mechanical energy, generated by an brushless electric motor",
+    "//": "Without this installed, no hydraulic equipment can function.  Can NOT be fabricated by the player due to its complicated and specialized nature.  Must be scavenged from existing vehicles",
+    "durability": 325,
+    "power": "25000 W",
+    "damage_modifier": 80,
+    "//1": "20 cm weld to repair per damage quadrant",
+    "breaks_into": [
+      {
+        "item": "mc_steel_lump",
+        "count": [ 4, 7 ]
+      },
+      {
+        "item": "mc_steel_chunk",
+        "count": [ 4, 7 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 4, 7 ]
+      }
+    ],
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "10 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 8 ] ],
+        "time": "60 m",
+        "using": [
+          [ "repair_welding_standard", 2 ],
+          [ "soldering_standard", 10 ],
+          [ "vehicle_wrench_1", 1 ],
+          [ "vehicle_screw", 1 ]
+        ]
+      }
+    },
+    "damage_reduction": { "all": 20 }
+  },
+  {
+    "id": "valve_hydraulic",
+    "type": "vehicle_part",
+    "categories": [ "utility" ],
+    "item": "valve_hydraulic",
+    "description": "An electronically controlled valve system for diverting hydraulic pressure to hydraulically-controlled equipment",
+    "//": "Without this installed, no hydraulic equipment can function.  Can NOT be fabricated by the player due to its complicated and specialized nature.  Must be scavenged from vehicles",
+    "durability": 325,
+    "power": "-2238 W",
+    "epower": "1320 W",
+    "damage_modifier": 80,
+    "//1": "20 cm weld to repair per damage quadrant",
+    "breaks_into": [
+      {
+        "item": "mc_steel_lump",
+        "count": [ 4, 7 ]
+      },
+      {
+        "item": "mc_steel_chunk",
+        "count": [ 4, 7 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 4, 7 ]
+      }
+    ],
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 2 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "60 m",
+        "using": [
+          [ "repair_welding_standard", 2 ],
+          [ "soldering_standard", 10 ],
+          [ "vehicle_wrench_1", 1 ],
+          [ "vehicle_screw", 1 ]
+        ]
+      }
+    },
+    "damage_reduction": { "all": 20 }
+  },
+  {
+    "id": "boom_mount",
+    "type": "vehicle_part",
+    "item": "boom_mount",
+    "//": "Required to mount the boom-and-stick. Can be craftable by the player due to its simple design of being basically welded tabs and mounting points",
+    "location": "structure",
+    "categories": [ "utility" ],
+    "durability": 300,
+    "description": "A welded mount for mountain boom-and-stick excavator arms.  This one is sized for the smaller mini-excavator boom-and-stick, and has attachment points to attach the hydraulic rams for left/right movement",
+    "breaks_into": [
+      {
+        "item": "ch_steel_lump",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "ch_steel_chunk",
+        "count": [ 4, 6 ]
+      },
+      {
+        "item": "scrap",
+        "count": [ 4, 6 ]
+      }
+    ],
+    "//1": "40 cm of weld per quadrant of damage and 100 cm weld to install",
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "60 m",
+        "using": [
+          [ "welding_standard", 100 ],
+          [ "vehicle_bolt_install", 2 ]
+        ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 1 ] ],
+        "time": "30 m",
+        "using": [
+          [ "vehicle_weld_removal", 1 ],
+          [ "vehicle_wrench_2", 1 ]
+        ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "8 m",
+        "using": [ [ "repair_welding_standard", 4 ] ]
+      }
+    },
+    "damage_reduction": { "all": 132 },
+    "variants": [
+      {
+        "symbols": "&",
+        "symbols_broken": "x"
+      }
+    ]
+  },
+  {
+    "id": "boom_and_stick",
+    "type": "vehicle_part",
+    "name": { "str": "excavator boom and stick" },
+    "item": "boom_and_stick",
+    "location": "center",
+    "categories": [ "utility" ],
+    "broken_color": "light_blue",
+    "durability": 200,
+    "description": "A boom-and-stick arm commonly found on excavators but on a much smaller scale.  Hydraulic rams allow it to extend and retract, and swing side to side.  On the end, there is a digging bucket attached.  You could use it to help lift something or dig a hole in the ground. It's capable of lifting up to 3/4 metric tons.  It must be mounted to a dedicated mount to function properly",
+    "breaks_into": [
+      {
+        "item": "scrap",
+        "count": [ 8, 24 ]
+      }
+    ],
+    "qualities": [
+      [ "LIFT", 7 ]
+    ],
+    "//": "30 cm of weld per quadrant of damage",
+    "requirements": {
+      "install": {
+        "skills": [ [ "mechanics", 5 ] ],
+        "time": "60 m",
+        "using": [ [ "vehicle_bolt_install", 1 ] ]
+      },
+      "removal": {
+        "skills": [ [ "mechanics", 3 ] ],
+        "time": "30 m",
+        "using": [ [ "vehicle_wrench_2", 1 ] ]
+      },
+      "repair": {
+        "skills": [ [ "mechanics", 6 ] ],
+        "time": "5 m",
+        "using": [ [ "repair_welding_standard", 3 ] ]
+      }
+    },
+    "pseudo_tools": [ { "id": "crane_pseudo_item" } ],
+    "damage_reduction": { "all": 48 },
+    "variants": [
+      {
+        "symbols": "=",
+        "symbols_broken": "*"
+      }
+    ]
   }
 ]
