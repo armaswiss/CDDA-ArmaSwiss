@@ -769,6 +769,12 @@
     "type": "json_flag",
     "//":"This item can only be mounted to anything with the EXCAVATOR_ARM flag",
     "requires_flag": "EXCAVATOR_ARM"
+  },
+  {
+    "id": "DIGGINGBUCKET",
+    "type": "json_flag",
+    "//":"Flag for Digging Bucket tool",
+    "requires_flag": "EXCAVATOR_ARM"
   }
   
 ]
