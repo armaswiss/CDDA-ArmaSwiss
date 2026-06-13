@@ -597,15 +597,15 @@
     "id": "boom_mount",
     "type": "vehicle_part",
     "item": "boom_mount",
+    "name": { "str": "Excavator boom mount" },
     "//": "Required to mount the boom-and-stick. Can be craftable by the player due to its simple design of being basically welded tabs and mounting points",
     "location": "structure",
-    "//":"Only a boom mount can be used for installing an excavator boom-and-stick arm",
-    "flags":"EXCAVATOR_ARM_BASE",
+    "//1":"Only a boom mount can be used for installing an excavator boom-and-stick arm",
     "categories": [ "utility" ],
     "durability": 300,
     "description": "A welded mount for mountain boom-and-stick excavator arms.  This one is sized for the smaller mini-excavator boom-and-stick, and has attachment points to attach the hydraulic rams for left/right movement",
-     "flags": [ "TURRET_MOUNT", "EXCAVATOR_ARM_BASE" ],
-    "//1":"Disable placing a turret where we have a boom arm",
+    "flags": [ "TURRET_MOUNT", "EXCAVATOR_ARM_BASE" ],
+    "//2":"Disable placing a turret where we have a boom arm",
     "breaks_into": [
       {
         "item": "ch_steel_lump",
@@ -620,7 +620,7 @@
         "count": [ 4, 6 ]
       }
     ],
-    "//1": "40 cm of weld per quadrant of damage and 100 cm weld to install",
+    "//3": "40 cm of weld per quadrant of damage and 100 cm weld to install",
     "requirements": {
       "install": {
         "skills": [ [ "mechanics", 3 ] ],
@@ -655,7 +655,7 @@
   {
     "id": "boom_and_stick",
     "type": "vehicle_part",
-    "name": { "str": "excavator boom and stick" },
+    "name": { "str": "Excavator boom-and-stick" },
     "item": "boom_and_stick",
     "location": "center",
     "categories": [ "utility" ],
@@ -670,7 +670,7 @@
       }
     ],
     "qualities": [
-      [ "LIFT", 7 ]
+      [ "LIFT", 2 ]
     ],
     "//": "30 cm of weld per quadrant of damage",
     "requirements": {
@@ -702,7 +702,7 @@
   {
     "id": "digging_bucket",
     "type": "vehicle_part",
-    "name": { "str": "Digging Bucket" },
+    "name": { "str": "Excavator digging bucket" },
     "item": "digging_bucket",
     "categories": [ "utility" ],
     "flags": [ "EXCAVATOR_TOOL" ],
