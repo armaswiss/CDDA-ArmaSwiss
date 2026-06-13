@@ -1712,7 +1712,8 @@ int vehicle::install_part( map &here, const point_rel_ms &dp, vehicle_part &&vp 
                 "COOLER",
                 "WATER_PURIFIER",
                 "ROCKWHEEL",
-                "ROADHEAD"
+                "ROADHEAD",
+                "DIGGINGBUCKET"
             }
         };
 
