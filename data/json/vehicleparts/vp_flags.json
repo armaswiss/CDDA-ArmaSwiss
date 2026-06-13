@@ -752,5 +752,23 @@
     "id": "NL_BOILER",
     "type": "json_flag",
     "info": "This part functions as a boiler from the nether."
+  },
+  {
+    "id": "EXCAVATOR_ARM_BASE",
+    "type": "json_flag",
+    "//":"This is the base of the excavator arm. Without it, you can't mount one",
+  },
+  {
+    "id": "EXCAVATOR_ARM",
+    "type": "json_flag",
+    "//":"This item can only be mounted to anything with the EXCAVATOR_ARM_BASE flag",
+    "requires_flag": "EXCAVATOR_ARM_BASE"
+  },
+  {
+    "id": "EXCAVATOR_TOOL",
+    "type": "json_flag",
+    "//":"This item can only be mounted to anything with the EXCAVATOR_ARM flag",
+    "requires_flag": "EXCAVATOR_ARM"
   }
+  
 ]
