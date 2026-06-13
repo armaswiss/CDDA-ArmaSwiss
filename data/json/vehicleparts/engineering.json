@@ -602,6 +602,8 @@
     "categories": [ "utility" ],
     "durability": 300,
     "description": "A welded mount for mountain boom-and-stick excavator arms.  This one is sized for the smaller mini-excavator boom-and-stick, and has attachment points to attach the hydraulic rams for left/right movement",
+     "flags": [ "TURRET_MOUNT" ],
+    "//1":"Disable placing a turret where we have a boom arm",
     "breaks_into": [
       {
         "item": "ch_steel_lump",
