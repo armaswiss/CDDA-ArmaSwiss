@@ -439,5 +439,12 @@
     "category": "VEHICLE",
     "name": "Use sensor array",
     "bindings": [ { "input_method": "keyboard_char", "key": "w" } ]
+  },
+  {
+    "id": "ACTIVATE_DIGGER",
+    "type": "keybinding",
+    "category": "VEHICLE",
+    "name": "Activate Digging Bucket",
+    "bindings": [ { "input_method": "keyboard_char", "key": "w" } ]
   }
 ]
