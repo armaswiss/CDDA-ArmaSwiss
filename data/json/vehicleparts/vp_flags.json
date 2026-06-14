@@ -775,6 +775,11 @@
     "type": "json_flag",
     "//":"Flag for Digging Bucket tool",
     "requires_flag": "EXCAVATOR_ARM"
+  },
+  {
+    "id": "CONTROLS_HYDRAULIC",
+    "type": "json_flag",
+    "//":"Flag for Hydraulic Controls"
   }
   
 ]
