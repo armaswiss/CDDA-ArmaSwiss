@@ -691,13 +691,7 @@
       }
     },
     "pseudo_tools": [ { "id": "crane_pseudo_item" } ],
-    "damage_reduction": { "all": 48 },
-    "variants": [
-      {
-        "symbols": "=",
-        "symbols_broken": "*"
-      }
-    ]
+    "damage_reduction": { "all": 48 }
   },
   {
     "id": "digging_bucket",
@@ -751,12 +745,6 @@
         "using": [ [ "repair_welding_standard", 4 ] ]
       }
     },
-    "damage_reduction": { "all": 132 },
-    "variants": [
-      {
-        "symbols": "&",
-        "symbols_broken": "x"
-      }
-    ]
+    "damage_reduction": { "all": 132 }
   }
 ]
