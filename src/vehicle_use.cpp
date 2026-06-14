@@ -376,8 +376,6 @@ void vehicle::build_electronics_menu( map &here, veh_menu &menu )
                 "TOGGLE_PLANTER", "PLANTER" );
     add_toggle( pgettext( "electronics menu option", "rockwheel" ),
                 "TOGGLE_PLOW", "ROCKWHEEL" );
-    add_toggle( pgettext( "electronics menu option", "diggingbucket" ),
-                "TOGGLE_PLOW", "DIGGINGBUCKET" );
     add_toggle( pgettext( "electronics menu option", "roadheader" ),
                 "TOGGLE_PLOW", "ROADHEAD" );
     add_toggle( pgettext( "electronics menu option", "scoop" ),
@@ -2320,6 +2318,7 @@ void vehicle::build_interact_menu( veh_menu &menu, map *here, const tripoint_bub
                                          ? has_parts( {"CTRL_ELECTRONIC", "REMOTE_CONTROL"} ).any()
                                          : has_part_here( "CTRL_ELECTRONIC" );
     const bool controls_here = has_part_here( "CONTROLS" );
+    const bool hydraulic_controls_here = has_part_here( "CONTROLS_HYDRAULIC" );
     const bool player_is_driving = get_player_character().controlling_vehicle;
     const bool player_inside = here->veh_at( get_player_character().pos_abs() ) ?
                                &here->veh_at( get_player_character().pos_abs() )->vehicle() == this :
@@ -2562,6 +2561,23 @@ void vehicle::build_interact_menu( veh_menu &menu, map *here, const tripoint_bub
         .on_submit( [this] { turrets_override_automatic_aim(); } );
 
         menu.add( _( "Aim individual turret" ) )
+        .hotkey( "TURRET_SINGLE_FIRE" )
+        .on_submit( [this] { turrets_aim_and_fire_single(); } );
+    }
+    
+    if( hydraulic_controls_here && has_part( "DIGGINGBUCKET" ) ) {
+       
+        // To use the Excavator digging bucket to dig a pit
+        menu.add( _( "Dig Pit" ) )
+        .hotkey( "TURRET_MANUAL_AIM" )
+        .on_submit( [this] { turrets_aim_and_fire_all_manual( true ); } );
+
+        // This lets us manually override and set the target for the automatic turrets instead.
+        menu.add( _( "Fill Pit" ) )
+        .hotkey( "TURRET_MANUAL_OVERRIDE" )
+        .on_submit( [this] { turrets_override_automatic_aim(); } );
+
+        menu.add( _( "Dig Channel" ) )
         .hotkey( "TURRET_SINGLE_FIRE" )
         .on_submit( [this] { turrets_aim_and_fire_single(); } );
     }
