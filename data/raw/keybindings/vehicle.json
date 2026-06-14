@@ -329,6 +329,13 @@
     "bindings": [ { "input_method": "keyboard_any", "key": "w" } ]
   },
   {
+    "id": "TOGGLE_DIGGING_BUCKET",
+    "type": "keybinding",
+    "category": "VEHICLE",
+    "name": "Toggle digging bucket",
+    "bindings": [ { "input_method": "keyboard_any", "key": "w" } ]
+  },
+  {
     "id": "TOGGLE_REACTOR",
     "type": "keybinding",
     "category": "VEHICLE",
