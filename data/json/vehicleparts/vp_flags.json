@@ -780,6 +780,16 @@
     "id": "CONTROLS_HYDRAULIC",
     "type": "json_flag",
     "//":"Flag for Hydraulic Controls"
+  },
+   {
+    "id": "PUMP_HYDRAULIC",
+    "type": "json_flag",
+    "//":"Flag for Hydraulic Pump"
+  },
+   {
+    "id": "VALVE_HYDRAULIC",
+    "type": "json_flag",
+    "//":"Flag for Hydraulic Control Valve"
   }
   
 ]
